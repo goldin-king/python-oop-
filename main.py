@@ -12,3 +12,5 @@ buddy.train("roll over")
 buddy.train("sit")
 buddy.show_tricks()
 buddy.get_status()
+
+
