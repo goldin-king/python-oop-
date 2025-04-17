@@ -1,5 +1,4 @@
 ##Creating a class
-
 class Pet:
     def __init__(self,name):
         self.name = 'Mellow '
@@ -7,6 +6,9 @@ class Pet:
         self.energy = 5
         self.happiness = 5
         self. tricks = [ ]
+       
+    def bark(self):
+        print(f"{self.name} says: Woof woof! 🐾")
 
     def eat (self):
         self.hunger = max(0,self.hunger -2)

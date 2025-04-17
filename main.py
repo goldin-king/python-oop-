@@ -1,19 +1,19 @@
-from pet import Pet
-
+from pet import Dog
 # Creating a pet
-dog = Pet("Mellow")
+mellow = Dog("Mellow")
 
 # Interact with the pet
-dog.get_status()
-dog.eat()
-dog.play()
-dog.sleep()
-dog.train("sit")
-dog.train("roll over")
-dog.train("fetch")
+mellow.get_status()
+mellow.eat()
+mellow.play()
+mellow.sleep()
+mellow.train("sit")
+mellow.train("roll over")
+mellow.train("fetch")
+mellow.train("shake paw")
 
 # Check Mellow's status
-dog.get_status()
+mellow.get_status()
 
 # Show the tricks Mellow learnt
-dog.show_tricks()
+mellow.show_tricks()
